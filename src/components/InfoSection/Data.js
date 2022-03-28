@@ -1,0 +1,16 @@
+export const homeObjOne = {
+  id: 'about',
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'Compostagem in company',
+  headline: 'Transformar localmente os resíduos orgânicos produzidos globalmente!',
+  description: 'A Organa Biotech traz soluções para os resíduos orgânicos das indústrias, realizando uma compostagem acelerada por biotecnologia dentro da área da empresa, fazendo a Economia Circular, reduzindo a emissão de CO2 com transporte, e novos valores como conscientização, alimento, rastreabilidade e muito mais.',
+  buttonLabel: 'Entre em contato',
+  imgStart: false,
+  img: require('../../images/svg-1.svg'),
+  alt: 'Organa',
+  dark: true,
+  primary: true,
+  darkText: false,
+};
