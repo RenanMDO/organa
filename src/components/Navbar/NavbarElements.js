@@ -3,7 +3,7 @@ import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
 
 export const Nav = styled.nav `
-  background: #000;
+  background: ${({ scrollNav }) => (scrollNav ? '#000' : 'transparent')};
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -113,5 +113,12 @@ export const NavBtnLink = styled (LinkR)`
       background: #fff;
       color: #010606;
     }
+`
+
+export const Img = styled.img`
+  height: 4rem;
+  @media screen and (max-width: 460px) {
+    height: 2.5rem;
+  }
 `
 
