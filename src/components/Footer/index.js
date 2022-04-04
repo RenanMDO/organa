@@ -44,10 +44,10 @@ const Footer = () => {
               </FooterLinkItems>
               <FooterLinkItems>
                 <FooterLinkTitle> Contato </FooterLinkTitle>
-                  <FooterLink to='/about'>WhatsApp</FooterLink>
-                  <FooterLink to='/services'>Email</FooterLink>
-                  <FooterLink to='/blog'>Telefone</FooterLink>
-                  <FooterLink to='/Store'>Endereço</FooterLink>
+                  <FooterLink to='/contact'>WhatsApp</FooterLink>
+                  <FooterLink to='/contact'>Email</FooterLink>
+                  <FooterLink to='/contact'>Telefone</FooterLink>
+                  <FooterLink to='/contact'>Endereço</FooterLink>
               </FooterLinkItems>
             </FooterLinksWrapper>
             <FooterLinksWrapper>
