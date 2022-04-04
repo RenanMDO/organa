@@ -23,7 +23,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, darkText, descr
                     spy={true}
                     exact="true"
                     offset={-80}
-                    to="/whats"
+                    to="/contact"
                     >{buttonLabel}</Button>
                   </BtnWrap>
                 </TextWrapper>
